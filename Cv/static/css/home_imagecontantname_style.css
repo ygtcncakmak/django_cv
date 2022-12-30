@@ -1,0 +1,123 @@
+body{
+    font-size: 10px;
+    background-color: hsl(0deg 0% 7%);
+}
+/* .container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    background-color: white;
+} */
+
+.imgcontant{
+    margin-left: 16rem;
+    width: 22rem ;
+    height:40rem ;
+    background-color:#1E1E1F;
+    display: inline-block;
+    position: fixed;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-style: solid;
+    border-color: #363636;
+}
+.imgbox{
+    background-color: #363636;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    width: 9rem;
+    height: 10.7rem;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.imgbox img{
+    width: 9rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.namejob{
+    margin-left: 6rem;
+    text-align: center;
+    font-size: 1.1rem;
+    
+    color: white;
+    display: inline-block;
+}
+.name{
+    font-weight: 400;
+}
+.webdevoloper{
+    background-color:  #363636;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.horizontool{
+    width: 60%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #363636;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.iconbox{
+    background-color: #363636;
+    width:3rem;
+    height: 2rem;
+    border-style: solid;
+    border-color: #535353;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    
+}
+.iconbox img{
+
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    display: inline-block;
+
+    
+}
+.info p{
+    display: inline-block;
+    color: #B7B7B7;
+    
+}
+.infoattribute{
+    display: inline-block;
+    margin-left: 0.3rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+.infoattribute p{
+    display:block;
+}
+#link img{
+    margin-right: 1.5rem;
+}

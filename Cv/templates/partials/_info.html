@@ -1,0 +1,46 @@
+
+{%load static%} 
+
+{% block css_files%}
+<link rel="stylesheet" href="{% static 'css/home_info_style.css'%}" />
+{%endblock css_files%} 
+
+<div class="icerik">
+
+
+
+  
+  <nav class="navbar">
+    <center>
+      <ul>
+        <li><a href="index" class="nav-item">home</a></li>
+        <li><a href="about" class="nav-item">about</a></li>
+        <li><a href="blogs" class="nav-item">blog</a></li>
+      </ul>
+  </center>
+    
+  </nav>
+
+  <div class="page-name">
+    <div class="page-name-box">
+      <center>
+        {%block pagename%}
+    
+        {%endblock pagename%}
+      </center>
+    </div>
+    
+  
+  </div>
+  
+    <div class="page-content">
+      <div class="page-content-info">
+      
+        {%block content%}
+      
+        {%endblock content%}
+
+      </div>
+    </div>
+
+</div>

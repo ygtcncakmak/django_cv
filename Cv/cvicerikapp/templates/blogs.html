@@ -1,0 +1,16 @@
+{% extends 'home_page.html' %} 
+{% load static%}
+{% block css_files%}
+<link rel="stylesheet" href="{% static 'css/blogstyle.css' %}">
+{%endblock css_files%}
+{%block title%}
+Blogs
+{%endblock title%}
+
+{%block pagename%}
+Blogs
+{%endblock pagename%}
+
+{% block content %}
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, provident! Corporis nihil amet recusandae error!</p>
+{% endblock content %}
